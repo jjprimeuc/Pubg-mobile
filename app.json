@@ -12,7 +12,7 @@
         "BOT_INFO": {
             "description": "botname;ownername;image url",
             "required": true,
-            "value":"ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://i.imgur.com/VIpl3q5.mp4"
+            "value":"M-MALIK-KHAN-MD'"
         },
         "MENU_FONT": {
             "description": "type;plugin name, have to be less than 35",
@@ -64,7 +64,7 @@
         "SUDO": {
             "description": "owner number of the bot",
             "required": false,
-            "value":"4915252819677"
+            "value":"+92 349 9833604"
         },
         "ALLWAYS_ONLINE": {
             "description": "show bot number last seen as online",
