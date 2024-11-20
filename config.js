@@ -26,7 +26,7 @@ module.exports = {
   ANTIBOT_MSG: process.env.ANTIBOT_MSG || "```Antibot deleted successfully!!```",
   ANTIWORD_MSG: process.env.ANTIWORD_MSG || "```Antiword deleted successfully!!```",
   ALIVE_DATA : process.env.ALIVE_DATA || "_*Hy &sender i am alive now*_\n\n_PLATFORM: &platform_\n_RUNTIME : &runtime_\n\n_. type alive to update your alive message_",
-  SESSION_ID: process.env.SESSION_ID || 'Jarvis_8812_490f_c2f6_b9cd_5855_0808_1edf_9b65',
+  SESSION_ID: process.env.SESSION_ID || 'Jarvis_e950_44bc_de11_f7d2_3b63_9783_7c25_4a09',
   LANG: process.env.LANG || 'EN',
   SETVV: process.env.SETVV || 'DM',
   ELEVENLABS: process.env.ELEVENLABS,
