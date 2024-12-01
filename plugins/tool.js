@@ -20,7 +20,7 @@ System({
 	pattern: "ping",
 	fromMe: isPrivate,
 	type: "tool",
-	alias: ['pong'],
+	alias: ['pong','speed'],
 	desc: "To check ping",
 	adminAccess: true,
 }, async (message) => {

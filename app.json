@@ -1,7 +1,7 @@
 {
     "name": "Jarvis",
     "version":"2.5.0",
-    "description": "Jarvis Multi Device whatsappbot",
+    "description": "Jarvis Multi Device whatsapp bot",
     "logo": "https://i.imgur.com/PmfMtfa.jpeg",
     "keywords": ["whatsapp"],
     "repository": "https://github.com/Loki-Xer/Jarvis",
@@ -17,7 +17,7 @@
         "MENU_FONT": {
             "description": "type;plugin name, have to be less than 35",
             "required": false,
-            "value":"3;8"
+            "value":"12;9"
         },
         "AUDIO_DATA": {
             "description": "audio package name",
@@ -100,6 +100,21 @@
             "description": "ban chat from useing bot value: jid1,jid2",
             "required": false,
             "value":""
+        },
+        "STATUS_REPLY": {
+            "description": "Reply to status",
+            "required": false,
+            "value":"false"
+        },
+        "STATUS_REPLY_MSG": {
+            "description": "Status reply message to send",
+            "required": false,
+            "value":"*Nice Status Brother 🦫✨*"
+        },
+        "CMD_REACTION": {
+            "description": "react to commands",
+            "required": false,
+            "value":"false"
         }
     },
       "addons": [{ "plan": "heroku-postgresql" }],

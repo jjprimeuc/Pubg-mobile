@@ -39,7 +39,7 @@ System({
   const value = part.join(":").trim();
   if (!key || !value) return await message.send(`_*Example: .setvar SUDO:917025673121*_`);
   if (server === "HEROKU") {
-    await m.send(`_*Updated variable ${key.toUpperCase()}: ${value}*`);
+    await m.send(`_*Updated variable ${key.toUpperCase()}: ${value}*_`);
     const env = await setVar(key.toUpperCase(), value);
     if (!env) return m.reply(env);
   } else if (server === "RENDER") {

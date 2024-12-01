@@ -217,7 +217,7 @@ System({
         return await message.client.forwardMessage(message.jid, message.reply_message.message, { contextInfo: { mentionedJid: participants.map(a => a.id) } });
     } 
     else {
-        return await message.reply('*Example :* \n_*tag all*_\n*_tag admin*_\n*_tag text*_\n_*Reply to a message*_');
+        return await message.reply("*Example :* \n_*tag all*_\n_*tag admin*_\n_*tag me*_\n_*tag text*_\n_*Reply to a message to tag that message*_");
     }
 });
 
