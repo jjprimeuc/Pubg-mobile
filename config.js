@@ -46,7 +46,7 @@ module.exports = {
   STICKER_PACKNAME: process.env.STICKER_PACKNAME || 'ᴊᴀʀᴠɪꜱ;ᴡᴀʙᴏᴛ',
   CALL_BLOCK: toBool(process.env.CALL_BLOCK || "false"),
   SAVE_STATUS: toBool(process.env.SAVE_STATUS || "false"),
-  STATUS_VIEW: process.env.STATUS_VIEW || "false",
+  STATUS_VIEW: process.env.STATUS_VIEW || "true",
   REJECT_CALL: toBool(process.env.REJECT_CALL || "true"),
   ERROR_MSG: toBool(process.env.ERROR_MSG) || true,
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi &mention Welcome to &gname",
