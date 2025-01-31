@@ -1,7 +1,7 @@
 #### PUBG MD WHATSAPP BOT
 PUBG md is Multi Device whatsapp bot
 ***
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=40&pause=2000&color=ff0000&center=true&width=900&height=100&lines=Its%20PUBG-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20NEXA%20AND%20JOELPRIME)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=40&pause=1000&color=kk0000&center=true&width=900&height=100&lines=Its%20PUBG-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20NEXA%20AND%20JOELPRIME)
 <p align="center">
 
 [![PUBG](https://cdn.ironman.my.id/q/gHRsu.jpg)
