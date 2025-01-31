@@ -16,7 +16,7 @@ jarvis md is Multi Device whatsapp bot
 
 3. Now Deploy
     <br>
-<a href='https://jarvis-qr.vercel.app/heroku' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fjjprimeuc%2FPubg-mobile%3Ftab%3Dreadme-ov-file&template=https%3A%2F%2Fgithub.com%2Fjjprimeuc%2FPubg-mobile%3Ftab%3Dreadme-ov-file' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>   >CHANGE THE USER NAME ON THE LINK AND DEPLOY
 
 
 #### DEPLOY TO RAILWAY
