@@ -1,5 +1,5 @@
-#### JARVIS MD WHATSAPP BOT
-jarvis md is Multi Device whatsapp bot
+#### PUBG MD WHATSAPP BOT
+PUBG md is Multi Device whatsapp bot
 ***
 
 ### SETUP PAIRING CODE
