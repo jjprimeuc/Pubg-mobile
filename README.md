@@ -10,7 +10,7 @@ PUBG md is Multi Device whatsapp bot
 
 1. pairing code ⌚
 <br>
-<a href='https://seaaion-g-e8d986c349ff.herokuapp.com/' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id_-100000?style=for-the-badge&logo=scan&logoColor=black&labelColor=white&color=white'/></a>
+<a href='https://qr-pair-lrdy.onrender.com/' target="_blank"><img alt='PAIR ID' src='https://img.shields.io/badge/Session_id_-100000?style=for-the-badge&logo=scan&logoColor=black&labelColor=white&color=white'/></a>
     <br>
 
 #### DEPLOY TO HEROKU 
