@@ -1,18 +1,18 @@
 {
-    "name": "Jarvis",
+    "name": "PUBG",
     "version":"2.5.0",
-    "description": "Jarvis Multi Device whatsapp bot",
-    "logo": "https://i.imgur.com/PmfMtfa.jpeg",
+    "description": "PUBG Multi Device whatsapp bot",
+    "logo": "https://cdn.ironman.my.id/q/gHRsu.jpg",
     "keywords": ["whatsapp"],
-    "repository": "https://github.com/Loki-Xer/Jarvis",
-    "website": "https://github.com/Loki-Xer/Jarvis",
+    "repository": "https://github.com/jjprimeuc/Pubg-mobile",
+    "website": "https://github.com/jjprimeuc/Pubg-mobile",
     "success_url": "/",
     "stack": "container",
     "env": {
         "BOT_INFO": {
             "description": "botname;ownername;image url",
             "required": true,
-            "value":"ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://i.imgur.com/VIpl3q5.mp4"
+            "value":"PUBG;jOEL-xMD;https://cdn.ironman.my.id/q/gHRsu.jpg"
         },
         "MENU_FONT": {
             "description": "type;plugin name, have to be less than 35",
@@ -22,17 +22,17 @@
         "AUDIO_DATA": {
             "description": "audio package name",
             "required": true,
-            "value":"ʟᴏᴋɪ-xᴇʀ;ᴊᴀʀᴠɪꜱ;https://i.imgur.com/VgxJeCm.jpeg"
+            "value":"JEOL-xPRIME;PUBG;https://cdn.ironman.my.id/q/gHRsu.jpg"
         },
         "WARN_COUNT": {
             "description": "warn count",
             "required": true,
-            "value":"3"
+            "value":"2"
         },
         "MEDIA_DATA": {
             "description": "media data that uses in list",
             "required": true,
-            "value":"ʟɪꜱᴛ ᴍᴇɴᴜ;ᴊᴀʀᴠɪꜱ-ᴍᴅ;https://i.imgur.com/ltPPMTh.jpeg"
+            "value":"ʟɪꜱᴛ ᴍᴇɴᴜ;PUBG-ᴍᴅ;https://cdn.ironman.my.id/q/gHRsu.jpg"
         },
         "HANDLER": {
             "description": "handler for bot. all so can be null or false",
@@ -59,12 +59,12 @@
         "STICKER_PACKNAME": {
             "description": "sticker package name",
             "required": true,
-            "value":"ʟᴏᴋɪ;ᴊᴀʀᴠɪꜱ"
+            "value":"2025;PUBG"
         },
         "SUDO": {
             "description": "owner number of the bot",
             "required": false,
-            "value":"4915252819677"
+            "value":"256778559435"
         },
         "ALLWAYS_ONLINE": {
             "description": "show bot number last seen as online",
@@ -109,7 +109,7 @@
         "STATUS_REPLY_MSG": {
             "description": "Status reply message to send",
             "required": false,
-            "value":"*Nice Status Brother 🦫✨*"
+            "value":"*Up for a match mate 🤠✨*"
         },
         "CMD_REACTION": {
             "description": "react to commands",
