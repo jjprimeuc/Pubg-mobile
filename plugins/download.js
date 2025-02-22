@@ -66,8 +66,8 @@ System({
     if (!match) return await message.reply('_Please provide a pinterest *url*');
     if (!isUrl(match)) return await message.reply("_Please provide a valid pinterest *url*");
     if (!match.includes("pin.it")) return await message.reply("_Please provide a valid pinterest *url*");
-    const { result } = await getJson(api + "download/pinterest?url=" + match);
-    await message.sendFromUrl(result.url, { caption: "_*downloaded 🤍*_" });
+    const { url } = await getJson(IronMan(`ironman/dl/pinterest?url=${match}`));
+    await message.sendFromUrl(url, { caption: "_*downloaded 🤍*_" });
 });
 
 System({
@@ -167,7 +167,7 @@ System ({
    if (!isUrl(match)) return await message.reply("*_Need A GitHub Repository Url_*")
    let user = match.split("/")[3];
    let repo = match.split("/")[4];
-   const msg = await message.send("_*Downloading 🪲*_", { quoted: message.data });
+   const msg = await message.send("_*let me cook 🪲*_", { quoted: message.data });
    await message.reply({ url: `https://api.github.com/repos/${user}/${repo}/zipball` }, { fileName: repo , mimetype: "application/zip" }, "document");
    await msg.edit("_*downloaded 🍓*_");
 });
