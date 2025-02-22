@@ -18,6 +18,7 @@ const {
     interactWithAi,
     makeUrl,
     gemini,
+    groq,
     config
 } = require("../lib/");
 
@@ -180,4 +181,18 @@ System({
   const path = message.quoted && message.reply_message?.image ? await message.reply_message.downloadAndSaveMedia() : null;
   const res = await gemini(match, path);
   await message.send(res, { contextInfo: { forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363197401188542@newsletter', newsletterName: 'ɢᴇᴍɪɴɪ ᴀɪ' } } });
+});
+
+System({
+  pattern: "groq",
+  fromMe: isPrivate,
+  desc: "groq ai",
+  type: "ai",
+}, async (message, match) => {
+  if (!config.GROQ_KEY) return message.send("Need a key! Get one at https://console.groq.com/keys");
+  match = match || message.reply_message?.text;
+  if (!match) return message.reply("*Need query!*\n_e.g. .groq who is ironman_\n_.groq -models_\n_Reply to an image with a prompt for vision_");
+  if (match.toLowerCase() === '-models') return message.send((await groq.list()).join("\n") || "_*No models found*_", { contextInfo: { forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363197401188542@newsletter', newsletterName: 'ɢʀᴏǫ ᴀɪ' } } });
+  const result = message.reply_message?.image ? await groq.vision(match, message) : await groq.chat(match);
+  return message.send(result, { contextInfo: { forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363197401188542@newsletter', newsletterName: 'ɢʀᴏǫ ᴀɪ' } } });
 });
