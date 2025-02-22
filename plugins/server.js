@@ -12,6 +12,7 @@ Jarvis - Loki-Xer
 const { System, isPrivate, sleep, shell, changeVar, setData, config: Config, platform: { heroku, koyeb, render, railway }, bot } = require("../lib/");
 const { version } = require('../package.json');
 const simpleGit = require("simple-git");
+const pm2 = require("pm2");
 const git = simpleGit();
 
 System({
