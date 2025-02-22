@@ -117,7 +117,7 @@ System({
     fromMe: isPrivate,
     dontAddCommandList: true,
   }, async (message) => {
-    if (message.isBot) return;
+    if (message.isBot || !message.quoted) return
     if (!message.reply_message.fromMe || !message.reply_message.text) return;
     if (!message.body.includes('⬢')) return;
     let match = message.body.replace('⬢', '');
@@ -158,8 +158,7 @@ System({
   fromMe: isPrivate,
   dontAddCommandList: true,
 }, async (message) => {
-  if (message.isBot) return;
-  if (!message.reply_message || !message.reply_message.fromMe || !message.reply_message.text.includes('✧')) return;
+  if (message.isBot || !message.quoted || !message.reply_message.fromMe || !message.reply_message.text.includes('✧')) return;
   const match = message.reply_message.text.split('✧')[1];
   const qualitylist = parseInt(message.body.trim());
   var data = await youtube(match, "mp4", "all");
