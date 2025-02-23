@@ -7,11 +7,19 @@ PUBG md is Multi Device whatsapp bot
 ![PUBG](https://cdn.ironman.my.id/q/gHRsu.jpg)
 
 ### SETUP PAIRING CODE
-
 1. pairing code ⌚
 <br>
-<a href='https://qr-pair-lrdy.onrender.com/' target="_blank"><img alt='PAIR ID' src='https://img.shields.io/badge/Session_id_-100000?style=for-the-badge&logo=scan&logoColor=black&labelColor=white&color=white'/></a>
+<a href='https://jarvis-qr.vercel.app/' target="_blank"><img alt='PAIR ID' src='https://img.shields.io/badge/Session_id_-100000?style=for-the-badge&logo=scan&logoColor=black&labelColor=white&color=white'/></a>
     <br>
+
+
+# `NOTE : THIS BOT uses jarvis pairing code we are still making our id for the time being`
+
+<br>
+<a href='https://github.com/jjprimeuc/Jarvis/' target="_blank"><img alt='PAIR ID' src='https://img.shields.io/badge/jarivs_MD_-100000?style=for-the-badge&logo=scan&logoColor=black&labelColor=white&color=white'/></a>
+    <br>
+
+  # `BOT UNDER DEVELOPMENT : please enjoy the service👌`  
 
 #### DEPLOY TO HEROKU 
 
