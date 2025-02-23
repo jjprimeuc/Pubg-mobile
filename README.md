@@ -1,7 +1,7 @@
-#### PUBG MD WHATSAPP BOT
+#### `PUBG MD WHATSAPP BOT`
 PUBG md is Multi Device whatsapp bot
 ***
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=40&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its%20PUBG-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20NEXA%20AND%20JOELPRIME)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=40&pause=1000&color=ff0000&center=true&width=900&height=100&lines=Its%20PUBG-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20black%20AND%20JOELPRIME)
 <p align="center">
 
 ![PUBG](https://cdn.ironman.my.id/q/gHRsu.jpg)
@@ -20,17 +20,17 @@ PUBG md is Multi Device whatsapp bot
     <br>
 
   # `BOT UNDER DEVELOPMENT : please enjoy the service👌`  
+  
+<a><img src='https://i.imgur.com/wQOgFCH.jpeg'/></a>
 
-#### DEPLOY TO HEROKU 
+<h4 align="center">1. Heroku</h4>
+<p style="text-align: center; font-size: 1.2em;">
 
-1. If You don't have a account in Heroku. Create a account in heroku.
-    <br>
-<a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-3. Now Deploy
-    <br>
-<a href='https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fjjprimeuc%2FPubg-mobile%3Ftab%3Dreadme-ov-file&template=https%3A%2F%2Fgithub.com%2Fjjprimeuc%2FPubg-mobile%3Ftab%3Dreadme-ov-file' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>   >CHANGE THE USER NAME ON THE LINK AND DEPLOY
+<p align="center">
+<a href='https://dashboard.heroku.com/new?templatehttps://github.com/jjprimeuc/Pubg-mobile' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
 
+<a><img src='https://i.imgur.com/wQOgFCH.jpeg'/></a>
 
 #### DEPLOY TO RAILWAY
 
