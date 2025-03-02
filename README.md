@@ -30,9 +30,7 @@
 <h4 align="center">1. Heroku</h4>
 <p style="text-align: center; font-size: 1.2em;">
 
-
-<p align="center">
-<a href='https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2jjprimeuc%2FPubg-mobile%3Ftab%3Dreadme-ov-file&template=https%3A%2F%2Fgithub.com%2Fjjprimeuc%2FPubg-mobileF%3Dreadme-ov-file' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
+<a href='https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fjjprimeuc%2FPubg-mobile%3Ftab%3Dreadme-ov-file&template=https%3A%2F%2Fgithub.com%2Fjjprimeuc%2FPubg-mobile%3Ftab%3Dreadme-ov-file' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>  
 
 ---
 
